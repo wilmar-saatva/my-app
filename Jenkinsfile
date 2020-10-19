@@ -13,7 +13,7 @@ pipeline {
         }
         stage('--package--') {
             steps {
-                sh "this is the package stage"
+                sh "echo this is the package stage"
             }
         }
     }
